@@ -1,0 +1,17 @@
+{
+  "name": "xsd2ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "ts-gen": "ts-node ./src/generate.ts",
+    "makelib": "tsc -p ./src/generated",
+    "setup": "npm install"
+  },
+  "devDependencies": {
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5",
+    "xsd2ts": "^0.3.4"
+  }
+}
